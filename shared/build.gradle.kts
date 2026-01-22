@@ -45,6 +45,7 @@ kotlin {
             implementation(libs.mediapipe.tasks.vision)
             implementation(libs.kotlinx.coroutines.android)
             implementation(libs.koin.android)
+            implementation(libs.timber)
         }
 
         // iOS source set
